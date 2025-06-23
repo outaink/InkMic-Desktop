@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7218AF692E095A4600B4F29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7218AF522E095A4500B4F29C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7218AF592E095A4500B4F29C;
+			remoteInfo = InkMic;
+		};
+		7218AF732E095A4600B4F29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7218AF522E095A4500B4F29C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7218AF592E095A4500B4F29C;
+			remoteInfo = InkMic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7218AF5A2E095A4500B4F29C /* InkMic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InkMic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7218AF682E095A4600B4F29C /* InkMicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkMicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7218AF722E095A4600B4F29C /* InkMicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkMicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7218AF5C2E095A4500B4F29C /* InkMic */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InkMic;
+			sourceTree = "<group>";
+		};
+		7218AF6B2E095A4600B4F29C /* InkMicTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InkMicTests;
+			sourceTree = "<group>";
+		};
+		7218AF752E095A4600B4F29C /* InkMicUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InkMicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7218AF572E095A4500B4F29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7218AF652E095A4600B4F29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7218AF6F2E095A4600B4F29C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7218AF512E095A4500B4F29C = {
+			isa = PBXGroup;
+			children = (
+				7218AF5C2E095A4500B4F29C /* InkMic */,
+				7218AF6B2E095A4600B4F29C /* InkMicTests */,
+				7218AF752E095A4600B4F29C /* InkMicUITests */,
+				7218AF5B2E095A4500B4F29C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7218AF5B2E095A4500B4F29C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7218AF5A2E095A4500B4F29C /* InkMic.app */,
+				7218AF682E095A4600B4F29C /* InkMicTests.xctest */,
+				7218AF722E095A4600B4F29C /* InkMicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7218AF592E095A4500B4F29C /* InkMic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7218AF7C2E095A4600B4F29C /* Build configuration list for PBXNativeTarget "InkMic" */;
+			buildPhases = (
+				7218AF562E095A4500B4F29C /* Sources */,
+				7218AF572E095A4500B4F29C /* Frameworks */,
+				7218AF582E095A4500B4F29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7218AF5C2E095A4500B4F29C /* InkMic */,
+			);
+			name = InkMic;
+			packageProductDependencies = (
+			);
+			productName = InkMic;
+			productReference = 7218AF5A2E095A4500B4F29C /* InkMic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7218AF672E095A4600B4F29C /* InkMicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7218AF7F2E095A4600B4F29C /* Build configuration list for PBXNativeTarget "InkMicTests" */;
+			buildPhases = (
+				7218AF642E095A4600B4F29C /* Sources */,
+				7218AF652E095A4600B4F29C /* Frameworks */,
+				7218AF662E095A4600B4F29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7218AF6A2E095A4600B4F29C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7218AF6B2E095A4600B4F29C /* InkMicTests */,
+			);
+			name = InkMicTests;
+			packageProductDependencies = (
+			);
+			productName = InkMicTests;
+			productReference = 7218AF682E095A4600B4F29C /* InkMicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7218AF712E095A4600B4F29C /* InkMicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7218AF822E095A4600B4F29C /* Build configuration list for PBXNativeTarget "InkMicUITests" */;
+			buildPhases = (
+				7218AF6E2E095A4600B4F29C /* Sources */,
+				7218AF6F2E095A4600B4F29C /* Frameworks */,
+				7218AF702E095A4600B4F29C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7218AF742E095A4600B4F29C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7218AF752E095A4600B4F29C /* InkMicUITests */,
+			);
+			name = InkMicUITests;
+			packageProductDependencies = (
+			);
+			productName = InkMicUITests;
+			productReference = 7218AF722E095A4600B4F29C /* InkMicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7218AF522E095A4500B4F29C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7218AF592E095A4500B4F29C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					7218AF672E095A4600B4F29C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7218AF592E095A4500B4F29C;
+					};
+					7218AF712E095A4600B4F29C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7218AF592E095A4500B4F29C;
+					};
+				};
+			};
+			buildConfigurationList = 7218AF552E095A4500B4F29C /* Build configuration list for PBXProject "InkMic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7218AF512E095A4500B4F29C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7218AF5B2E095A4500B4F29C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7218AF592E095A4500B4F29C /* InkMic */,
+				7218AF672E095A4600B4F29C /* InkMicTests */,
+				7218AF712E095A4600B4F29C /* InkMicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7218AF582E095A4500B4F29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7218AF662E095A4600B4F29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7218AF702E095A4600B4F29C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7218AF562E095A4500B4F29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7218AF642E095A4600B4F29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7218AF6E2E095A4600B4F29C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7218AF6A2E095A4600B4F29C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7218AF592E095A4500B4F29C /* InkMic */;
+			targetProxy = 7218AF692E095A4600B4F29C /* PBXContainerItemProxy */;
+		};
+		7218AF742E095A4600B4F29C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7218AF592E095A4500B4F29C /* InkMic */;
+			targetProxy = 7218AF732E095A4600B4F29C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7218AF7A2E095A4600B4F29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7218AF7B2E095A4600B4F29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7218AF7D2E095A4600B4F29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InkMic/InkMic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = outaink.InkMic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7218AF7E2E095A4600B4F29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InkMic/InkMic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = outaink.InkMic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7218AF802E095A4600B4F29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = outaink.InkMicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkMic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InkMic";
+			};
+			name = Debug;
+		};
+		7218AF812E095A4600B4F29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = outaink.InkMicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkMic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InkMic";
+			};
+			name = Release;
+		};
+		7218AF832E095A4600B4F29C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = outaink.InkMicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = InkMic;
+			};
+			name = Debug;
+		};
+		7218AF842E095A4600B4F29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2DR3783XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = outaink.InkMicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = InkMic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7218AF552E095A4500B4F29C /* Build configuration list for PBXProject "InkMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7218AF7A2E095A4600B4F29C /* Debug */,
+				7218AF7B2E095A4600B4F29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7218AF7C2E095A4600B4F29C /* Build configuration list for PBXNativeTarget "InkMic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7218AF7D2E095A4600B4F29C /* Debug */,
+				7218AF7E2E095A4600B4F29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7218AF7F2E095A4600B4F29C /* Build configuration list for PBXNativeTarget "InkMicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7218AF802E095A4600B4F29C /* Debug */,
+				7218AF812E095A4600B4F29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7218AF822E095A4600B4F29C /* Build configuration list for PBXNativeTarget "InkMicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7218AF832E095A4600B4F29C /* Debug */,
+				7218AF842E095A4600B4F29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7218AF522E095A4500B4F29C /* Project object */;
+}
